@@ -61,6 +61,10 @@ export class TelemetryOutputChannel implements vscode.OutputChannel {
     this.checkError(value);
     this.delegate.appendLine(value);
   }
+  replace(value: string): void {
+    this.checkError(value);
+    this.delegate.appendLine(value);
+  }
 
   private checkError(value: string): void {
     if (value.startsWith('[Error') || value.startsWith('  Message: Request')) {
