@@ -14,7 +14,7 @@
     }
   ],
   "license": "MIT",
-  "version": "1.10.0",
+  "version": "1.10.20220805",
   "publisher": "redhat",
   "bugs": "https://github.com/redhat-developer/vscode-yaml/issues",
   "repository": {
@@ -280,6 +280,6 @@
     "vscode-languageclient": "7.0.0",
     "vscode-nls": "^3.2.1",
     "vscode-uri": "^2.0.3",
-    "yaml-language-server": "next"
+    "yaml-language-server": "1.10.1-bb0d33f.0"
   }
 }
