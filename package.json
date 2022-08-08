@@ -80,7 +80,7 @@
       }
     ],
     "configuration": {
-      "title:": "YAML",
+      "title": "YAML",
       "properties": {
         "redhat.telemetry.enabled": {
           "type": "boolean",
